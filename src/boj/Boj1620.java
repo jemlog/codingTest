@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-
+// 문제 스타일 : 문자와 숫자 "쌍"을 구하는 문제 -> HashMap , 숫자는 index로 활용 가능!
 /**
  * 문자열을 통해 숫자를 찾고, 숫자를 통해 문자열을 찾는 문제
  * 보통 문자열에 맞는 쌍을 찾는 경우에는 HashMap을 사용,

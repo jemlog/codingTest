@@ -6,7 +6,9 @@ import java.io.IOException;
 
 import java.io.InputStreamReader;
 import java.util.*;
-
+// 키 오름차순 정렬 : 키를 오름차순 정렬해서 보여줘야 할때! -> 이후에 for문으로 돌아가면서 처리 가능!
+//		Object[] keys = trees.keySet().toArray();
+//                Arrays.sort(keys);
 public class Boj4358 {
 
     public static void main(String[] args) throws IOException {
