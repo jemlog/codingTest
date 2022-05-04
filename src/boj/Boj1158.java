@@ -34,6 +34,7 @@ public class Boj1158 {
         }
         //<3, 6, 2, 7, 5, 1, 4>
         // 중요! StringBuilder를 사용하면 굳이 마지막에 다 넣어줄 필요없이 값 도출될때마다 append 해주자
+        // 순서대로 추가해서 마지막에 값 도출해야할때 사용!
         StringBuilder sb = new StringBuilder(N);
         for(int j = 0; j < N -1; j++)
         {
@@ -44,6 +45,7 @@ public class Boj1158 {
         bw.write("<"+sb.toString()+">");
         bw.flush();
         bw.close();
+        br.close();
 
     }
 }
